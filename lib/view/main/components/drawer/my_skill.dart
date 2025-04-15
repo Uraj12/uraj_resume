@@ -58,14 +58,14 @@ class MySKills extends StatelessWidget {
     return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Flutter',image: 'assets/icons/flutter.png',),
-        AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Dart',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Firebase',image: 'assets/icons/firebase.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.85, title: 'Mysql',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Advance java',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.5, title: 'python',image: 'assets/icons/bloc.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.93, title: 'Spring boot',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.5, title: 'Flutter',image: 'assets/icons/flutter.png',),
+        AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Dart',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.75, title: 'Firebase',image: 'assets/icons/firebase.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.90, title: 'Mysql',image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.80, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.90, title: 'Advance java',image: 'assets/icons/flutter.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.70, title: 'python',image: 'assets/icons/bloc.png'),
+        AnimatedLinearProgressIndicator(percentage: 0.85, title: 'Spring boot',image: 'assets/icons/dart.png'),
       ],);
   }
 }
