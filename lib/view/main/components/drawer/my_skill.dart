@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../res/constants.dart';
+import '../../../intro/components/commonText.dart';
 
 class AnimatedLinearProgressIndicator extends StatelessWidget {
   const AnimatedLinearProgressIndicator({super.key, required this.percentage, required this.title, this.image});
@@ -44,14 +45,23 @@ class MySKills extends StatelessWidget {
     return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Flutter',image: 'assets/icons/flutter.png',),
-        AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Dart',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Firebase',image: 'assets/icons/firebase.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.85, title: 'Mysql',image: 'assets/icons/dart.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Advance java',image: 'assets/icons/flutter.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.5, title: 'python',image: 'assets/icons/bloc.png'),
-        AnimatedLinearProgressIndicator(percentage: 0.93, title: 'Spring boot',image: 'assets/icons/dart.png'),
+        SkillWithIcon(title: "Flutter", image: 'assets/icons/flutter.png'),
+        SkillWithIcon(title: "Dart", image: 'assets/icons/dart.png'),
+        SkillWithIcon(title: "Firebase", image: 'assets/icons/firebase.png'),
+        SkillWithIcon(title: "Mysql", image: 'assets/icons/dart.png'),
+        SkillWithIcon(title: "Responsive Design", image: 'assets/icons/flutter.png'),
+        // SkillWithIcon(title: "Advance Java", image: 'assets/icons/java.png'),
+        SkillWithIcon(title: "Python", image: 'assets/icons/bloc.png'),
+        SkillWithIcon(title: "Spring Boot", image: 'assets/icons/dart.png'),
+
+        // AnimatedLinearProgressIndicator(percentage: 0.7, title: 'Flutter',image: 'assets/icons/flutter.png',),
+        // AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Dart',image: 'assets/icons/dart.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.6, title: 'Firebase',image: 'assets/icons/firebase.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.85, title: 'Mysql',image: 'assets/icons/dart.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.8, title: 'Responsive Design',image: 'assets/icons/flutter.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.9, title: 'Advance java',image: 'assets/icons/flutter.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.5, title: 'python',image: 'assets/icons/bloc.png'),
+        // AnimatedLinearProgressIndicator(percentage: 0.93, title: 'Spring boot',image: 'assets/icons/dart.png'),
       ],);
   }
 }
